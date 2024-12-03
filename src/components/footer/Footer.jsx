@@ -8,14 +8,14 @@ import {BsLinkedin} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer id='footer'>
-      <a href='#' className='footer__logo'>Ajan Sharma</a>
+      <a href='#' className='footer__logo'>Dr. Prabha Sharma</a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
-        <li><a href='#experience'>Skills</a></li>
+        <li><a href='#experience'>Services</a></li>
         <li><a href='#services'>Experience</a></li>
-        <li><a href='#portfolio'>Projects</a></li>
+        <li><a href='#portfolio'>Gallery</a></li>
         <li><a href='#contact'>Contact</a></li>
       </ul>
 
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Portfolio of Ajan Sharma. All rights reserved</small>
+        <small>&copy; Website of Dr. Prabha Sharma. All rights reserved</small>
       </div>
     </footer>
   )

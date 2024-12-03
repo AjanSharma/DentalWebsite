@@ -115,106 +115,140 @@ const Experience = () => {
       
 
       
-      <h5>What Skills I Have</h5>
-      <h2>Skills</h2>
+      <h5>What we offer</h5>
+      <h2>Services</h2>
 
       <div className='blurbg'>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Programming Language</h3>
+          <h3>Services 1</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Teeth Whitening</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Python</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Bonding</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Check-ups</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Java</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Cosmetics Procedures</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>.NET Core</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Dental Impants</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>.NET Web API</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Dentures & bridges</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Teeth reshaping</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Veneers & crowns</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
           </div>
         </div>
         <div className="experience__backend">
-        <h3>Cloud System</h3>
+        <h3>Services 2</h3>
         <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Azure DevOps</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Emergency Care</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>CI/CD pipelines</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Extractions</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Azure Containers</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Fillings and sealants</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Azure Virtual Machine</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Mouth guards</h4>
+                {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>App Service</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Online dentist booking</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
-            
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Oral Surgery</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Root Canals</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Teeth Cleaning</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
           </div>
         </div>
 
       </div>
-      <div className='container experience__buttons'>
+      {/* <div className='container experience__buttons'>
         <a className='btn' ref={a} onClick={seeMoreSkills}>See More</a>
         <a className='btn' ref={a} onClick={seeIndustrySkills}>Industry Knowledge</a>
-      </div>
+      </div> */}
 
       </div>
 

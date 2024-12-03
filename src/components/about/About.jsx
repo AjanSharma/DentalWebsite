@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 // import ME from '../../assests/me-about.jpg'
 import ME from '../../assests/my_about2.jpg'
+import about_dentist_img from '../../assests/about-dentist-img.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -15,30 +16,33 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt='AboutImage' className='my_image'/>
+            {/* <img src={ME} alt='AboutImage' className='my_image'/> */}
+            <img src={about_dentist_img} alt='AboutImage' className='my_image'/>
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>2 Years Working</small>
+              <h5>Address</h5>
+              <small>G-18, Block G, Sector - 12, Noida, Uttar Pradesh 201301</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Organisation</h5>
-              <small>Citi (Currrent), Morgan Stanley</small>
+              <h5>Amenities</h5>
+              <small>Gender-neutral toilets, </small>
+              <small>Wheelchair accessible entrance</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <h5>Experience</h5>
+              <small>15+ Completed</small>
             </article>
           </div>
-          <h3>Always think of best case in life and worst case in code !</h3>
+          <h3>From Dr. Prabha Sharma</h3>
           <p>
-            Excited to utilize developing stack to resolve problems by providing end-to-end solutions with modern architecture practices. Open to small or big projects to enhace and expand my tech stack. 
+            With Dr. Prabha Sharma, a bright smile is right around the corner. Dr. Prabha Sharma is your go to neighborhood dentist in Noida. When it comes to your
+            teeth and oral health, you need to have a fantastic team beside you. Here, that is what you will get! 
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
