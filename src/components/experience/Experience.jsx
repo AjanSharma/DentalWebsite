@@ -127,6 +127,20 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>All Emergency Care</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Online Dentist Booking</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>Teeth Whitening</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
@@ -134,49 +148,35 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Bonding</h4>
-                {/* <small className='text-light'>Intermediate</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Check-ups</h4>
+                <h4>Bonding Jewels</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Cosmetics Procedures</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Dental Impants</h4>
+                <h4>Cosmetic Fillings</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Dentures & bridges</h4>
+                <h4>Veneers & Laminates</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Teeth reshaping</h4>
+                <h4>Orthodontic Treatment</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Veneers & crowns</h4>
+                <h4>Fillings & Sealants</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
@@ -188,7 +188,14 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Emergency Care</h4>
+                <h4>Root Canal Treatment</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>TMJ Splints & Night Guards</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
@@ -202,42 +209,35 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Fillings and sealants</h4>
+                <h4>All Minor surgical procedures</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Mouth guards</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Online dentist booking</h4>
+                <h4>Full Mouth Rehabilitation</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Oral Surgery</h4>
+                <h4>Fixed Complete Dentures</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Root Canals</h4>
+                <h4>Removable Complete & partial dentures</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Teeth Cleaning</h4>
+                <h4>Checkups</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>

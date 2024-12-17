@@ -1,0 +1,95 @@
+#info-section {
+    /* padding: 4rem 0; */
+    padding-bottom: 4rem;
+    /* background-color: #1e1e2f; */
+    color: #ffffff;
+    text-align: center;
+    /* width: 80%; */
+
+    /* width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff; */
+  }
+  
+  #info-section h5 {
+    color: #4da8da;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .info-container {
+    max-width: 900px; /* Same width as Google Review container */
+    margin: 0 auto; /* Centers the container */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .info-details {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .info-details p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #d4d4dc;
+  }
+  
+  .info-details strong {
+    color: #4da8da;
+  }
+  
+  .working-hours {
+    margin-top: 1rem;
+  }
+  
+  .working-hours p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #d4d4dc;
+  }
+  
+  .social-icons {
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    margin-right: 1rem;
+    color: #4da8da;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-frame {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  

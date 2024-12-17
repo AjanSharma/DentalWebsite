@@ -8,7 +8,11 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
+import Contactmore from './components/contact/Contactmore'
 import Slideshow from './components/slideshow/Slideshow'
+import Googlereviews from './components/reviews/Googlereviews'
+import Googlereviews2 from './components/reviews/Googlereviews2'
+import InfoSection from './components/infosection/Infosection'
 
 const App = () => {
   return (
@@ -20,11 +24,16 @@ const App = () => {
         <Experience />
         {/* <Services /> */}
         {/* <Portfolio /> */}
-        <Testimonials />
-        <Slideshow />
+        {/* <Testimonials /> */}
+        {/* <Slideshow /> */}
+        {/* <Googlereviews /> */}
+        <Googlereviews2 />
+        <Contactmore />
         
-        <Contact />
+        {/* <Contact /> */}
+        
         <Footer />
+        <InfoSection />
     </>
   )
 }

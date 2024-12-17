@@ -1,0 +1,61 @@
+/* Updated Form Section */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    background: var(--color-bg-variant);
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-light);
+    font-size: 1rem;
+}
+
+select {
+    appearance: none;
+    background: var(--color-bg-variant) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") no-repeat right 1rem center;
+    background-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    background: transparent;
+}
+
+textarea {
+    height: 150px;
+}
+
+.form__buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.form__buttons .btn {
+    flex: 1;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
+
+    form {
+        gap: 1.2rem;
+    }
+}
